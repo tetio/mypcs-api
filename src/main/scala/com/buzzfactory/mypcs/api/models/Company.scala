@@ -1,8 +1,8 @@
 package com.buzzfactory.mypcs.api.models
 
-import com.buzzfactory.mypcs.api.models.DateTimeJsonProtocol.DateTimeJsonFormat
+import com.buzzfactory.mypcs.api.models.JsonFormatters.DateTimeJsonFormat
 import org.joda.time.DateTime
-import sprest.models.{Model, ModelCompanion}
+import sprest.models.{Model, ModelCompanion, UUIDId, UUIDStringId}
 
 /**
   * Created by tetio on 26/04/16.

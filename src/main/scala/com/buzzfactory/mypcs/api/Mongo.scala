@@ -3,7 +3,7 @@ package com.buzzfactory.mypcs.api
 import reactivemongo.api.MongoDriver
 import reactivemongo.bson.{BSONDocument, BSONObjectID}
 import spray.json.RootJsonFormat
-import sprest.models.{UUIDId, UUIDStringId, UniqueSelector}
+import sprest.models.{UUIDStringId, UniqueSelector}
 import sprest.reactivemongo.ReactiveMongoPersistence
 import sprest.reactivemongo.typemappers.{NormalizedIdTransformer, SprayJsonTypeMapper}
 
